@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>353 Prime Studios</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <a href="/" class="logo-and-name">
+            <img src="{{ url_for('static', filename='logo/logo.png') }}" alt="l">
+            353 Prime Studios
+        </a>
+        <!-- Start NavBar -->
+        <nav class="nav-bar">
+            <a href="/">Home</a>
+            <a href="#services">Services</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+        <!-- End NavBar -->
+    </header>
+    <!-- End Header -->
+    <!-- Start Main -->
+    <main>
+        <!-- Start Container-1 -->
+        <div class="container-1">
+            <img class="minecraft-background-1" src="{{ url_for('static', filename='img/content/minecraft-background-1.jpg') }}" alt="minecraft-background-1">
+            <div class="content-1">
+                <div class="content1-left">
+                    <div>
+                        <h1>353 Prime Studios</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, doloribus nisi consequatur harum, illo ducimus laudantium quos obcaecati laboriosam alias, molestias officia rem quibusdam. Alias delectus rerum incidunt expedita, voluptates et veniam quibusdam magni dignissimos explicabo distinctio dolorem similique voluptatum eaque doloremque. Iusto ipsam aliquid dignissimos corporis nihil omnis odio alias dolor sunt in! Magnam nihil eum quo laboriosam doloribus, obcaecati odit a at necessitatibus iure ut, commodi assumenda suscipit nesciunt accusamus sit, ipsa ipsam voluptatibus error voluptas. Neque assumenda cupiditate sed vitae itaque mollitia voluptate consequuntur incidunt quis quo veritatis, inventore obcaecati. Nulla odit doloribus dolorum, ea recusandae deleniti?</p>
+                    </div>
+                </div>
+                <div class="content1-right">
+                    <img class="laser-beam" src="{{ url_for('static', filename='img/content/minecraft-laser-beam.png') }}" alt="minecraft-laser-beam">
+                    <div class="gradient-circle"></div>
+                    <img class="minecraft-character-1" src="{{ url_for('static', filename='img/content/minecraft-character-1.png') }}" alt="minecraft-character-1">
+                </div>
+            </div>
+        </div>
+        <!-- End Container-1 -->
+        <!-- Start Container-2 -->
+        <div class="container-2">
+            <h1>Our Services</h1>
+            <div class="services" id="services">
+                <div class="story-generator">
+                    <u><a href="/story_generation">Story Generator</a></u>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aut inventore ipsam velit rem delectus accusantium maxime culpa magnam fuga?</p>
+                </div>
+                <div class="text-to-speech">
+                    <u><a href="/text2speech">Text to Speech</a></u>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque animi ut velit ab cum veniam officiis tempora?</p>
+                </div>
+                <div class="text-to-image">
+                    <u><a href="/text2image">Text to Image</a></u>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, et? Iure placeat sapiente suscipit! Non omnis magnam laboriosam.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Container-2 -->
+    </main>
+    <!-- End Main -->
+    <!-- Start Footer -->
+    <footer>
+        
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Import Local JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
